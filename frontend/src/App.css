@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  background: #000500;
+  color: #acadbc;
+}
+
+button {
+  background: #473bf0;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: 0.1s all ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+form {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 2px #473bf0;
+  border-radius: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+  background: #14213d;
+}
+input {
+  border-radius: 5px;
+  border: none;
+  padding: 2px 5px;
+}
+label {
+  display: block;
+}
+
+#root {
+  max-width: 100%;
+  width: 1600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+#sidebar {
+  width: 600px;
+  max-width: 100%;
+}
+
+#songs-table {
+  width: 800px;
+  max-width: 100%;
+}
+#songs-table table {
+  width: 100%;
+}
+#songs-table table th,
+#songs-table table td {
+  padding: 15px;
+  border-radius: 2px;
+}
+
+#songs-table table thead tr {
+  background: #473bf0;
+}
+
+#songs-table table thead tr th {
+  cursor: pointer;
+}
+
+#songs-table table tbody tr {
+  transition: 0.3s all;
+  background: #14213d;
+}
+
+#songs-table table tbody tr:hover {
+  transform: scale(1.02);
+  background: #060f21;
+}
+
+.logo_title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo_title img{
+  width: 100px;
+}
+
+.logo_title h1{
+  color: white;
+  margin-left: 5px;
+}
+
+.title_newsong h3{
+  color: white;
+}
+
+.title_newsong2 h3{
+  color: white;
+}
+
+.title_newsong input{
+  padding: 10px;
+}
+
+.title_newsong button{
+  margin-top: 10px;
+}
+
+.title_filter h3{
+  color: white;
+}
+
+.title_filter label{
+  color: white;
+}
+
+.title_filter input{
+  padding: 10px;
+}
+
+.hr_year{
+  color: white;
+}
+
+.footer{
+  font-weight: bold;
+  text-align: center;
+  font-size: 90px;
+  -webkit-text-stroke: .05rem rgb(255, 255, 255);
+  color: transparent;
+  font-family: inherit;
+  margin-top: 100px;
+}
